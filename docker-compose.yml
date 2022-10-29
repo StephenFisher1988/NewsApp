@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  005gui:
+    image: 005gui
+    build:
+      context: .
+      dockerfile: ./Dockerfile
