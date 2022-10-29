@@ -5,7 +5,7 @@ import praw
 import webbrowser
 
 #Reddit Web Scraper API details
-reddit = praw.Reddit(client_id='BD6x1qSj4axPADHutUnUGg', client_secret='5E6KTXjcy3i7CHwtFUTFwK4GuWoAvQ', user_agent='WebScraping')
+reddit = praw.Reddit(client_id='CLIENTID', client_secret='SECRET', user_agent='USERAGENT')
 
 #Get the top 3 stories from r/news for today and overwrite the rtext file
 def tasknews():
